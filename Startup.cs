@@ -38,4 +38,9 @@ namespace ToDoList
       get { return false; }
     }
   }
+  
+    public static class DBConfiguration
+  {
+   public static string ConnectionString = "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=ToDoList;Integrated Security=SSPI;";
+  }
 }
